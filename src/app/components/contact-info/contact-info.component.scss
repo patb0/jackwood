@@ -1,0 +1,33 @@
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+
+    h1 {
+        font-family: "Cinzel", sans-serif;
+        font-size: 200%;
+    }
+
+    span {
+        margin-left: 5%;
+        font-family: "Cinzel", sans-serif;
+        font-size: 120%;
+        text-align: left;
+    }
+
+    .phone-icon, .email-icon, .address-icon {
+        transform: scale(1.5);
+    }
+
+    .phone, .email, .address {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

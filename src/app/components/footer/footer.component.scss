@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #7d8597;
+    color: #FFF;
+    height: 400px;
+
+    .contact-form, .contact-info {
+        margin: auto;
+        width: 50%;
+    }
+}

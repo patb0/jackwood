@@ -1,0 +1,39 @@
+.header-container {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../../assets/images/background-header.jpg");
+    background-size: 100%;
+
+    .header-text, .header-logo {
+        width: 40%;
+        height: 100%;
+        margin: auto;
+        color: #FFF;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+
+        .jackwood-text {
+            font-family: "Kdam", sans-serif;
+            font-size: 400%;
+            margin-top: 30%;
+            letter-spacing: 5px;
+        }
+
+        .jackwood-description {
+            font-family: "Cinzel", sans-serif;
+            font-size: 125%;
+            margin-top: 2%;
+        }
+    }
+
+    .logo {
+        text-align: center;
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+}
