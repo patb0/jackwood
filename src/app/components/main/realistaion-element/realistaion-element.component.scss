@@ -1,0 +1,18 @@
+.realisation {
+    font-family: "Cinzel", sans-serif;
+    text-align: center;
+    font-size: 300%;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 9px 8px 24px -10px #000;
+}
+
+.realisation:hover {
+    box-shadow: 9px 8px 24px -7px #000
+}
+
+:host ::ng-deep {
+    .p-carousel {
+        margin-top: 4%;
+    }
+}

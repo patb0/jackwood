@@ -1,0 +1,16 @@
+.realisations-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+
+    .first-row-elements, .second-row-elements {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 2%;
+    }
+
+    .element {
+        width: 45%;
+    }
+}

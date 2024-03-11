@@ -1,0 +1,10 @@
+<div class="realisation">
+    <span>{{title}}</span>
+    <p-carousel [value]="imagesUrls!">
+        <ng-template let-image pTemplate="item">
+            <div>
+                <p-image src="{{image}}" width="100%" height="100%"></p-image>
+            </div>
+        </ng-template>
+    </p-carousel>
+</div>
